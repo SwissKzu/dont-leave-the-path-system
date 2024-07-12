@@ -1,0 +1,42 @@
+{
+    "id": "dont-leave-the-path",
+    "title": "Don't Leave the Path",
+    "description": "Foundry implementation for Don't Leave the Path by Roliste.ch",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": 12,
+        "verified": 12
+    },
+    "authors": [
+        {
+            "name": "Antoine Lenoir / Khazou",
+            "url": "https://roliste.ch",
+            "discord": "khazou"
+        }
+    ],
+    "esmodules": ["dont-leave-the-path.mjs"],
+    "packs": [{
+        "name": "scenario-maker",
+        "label": "Scenario Maker",
+        "type": "RollTable"
+    }],
+    "languages": [{
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }],
+    "documentTypes": {
+        "Actor": {
+            "character": {"htmlFields": ["background.description", "background.biography"]},
+            "creature": {},
+            "bosscreature": {"htmlFields": ["background.description", "background.special"]}
+        },
+        "Item": {
+            "item": {},
+            "weapon": {},
+            "protection": {}
+        }
+    },
+    "socket": false,
+    "initiative": "1d12"
+}
