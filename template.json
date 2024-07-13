@@ -1,0 +1,116 @@
+{
+    "Actor": {
+        "types": [
+            "character",
+            "creature",
+            "boss"
+        ],
+        "templates": {
+            "important": {
+                "body": {
+                    "score": {
+                        "value": 5,
+                        "min": 0,
+                        "max": 20
+                    },
+                    "pool": {
+                        "value": 5,
+                        "min": 0,
+                        "max": 20
+                    }
+                },
+                "mind": {
+                    "score": {
+                        "value": 5,
+                        "min": 0,
+                        "max": 20
+                    },
+                    "pool": {
+                        "value": 5,
+                        "min": 0,
+                        "max": 20
+                    }
+                },
+                "soul": {
+                    "score": {
+                        "value": 5,
+                        "min": 0,
+                        "max": 20
+                    },
+                    "pool": {
+                        "value": 5,
+                        "min": 0,
+                        "max": 20
+                    }
+                },
+                "description": ""
+            }
+        },
+        "character": {
+            "templates": [
+                "important"
+            ],
+            "masterskill": {
+                "name": "",
+                "description": "",
+                "value": 3
+            },
+            "journeymanskill": {
+                "name": "",
+                "description": "",
+                "value": 2
+            },
+            "apprenticeskill": {
+                "name": "",
+                "description": "",
+                "value": 1
+            }
+        },
+        "creature": {
+            "templates": [],
+            "creaturescore": {
+                "score": {
+                    "value": 5,
+                    "min": 0,
+                    "max": 20
+                },
+                "pool": {
+                    "value": 5,
+                    "min": 0,
+                    "max": 20
+                }
+            },
+            "specialfeatures": ""
+        },
+        "boss": {
+            "templates": [
+                "important"
+            ],
+            "description": "",
+            "specialfeatures": ""
+        }
+    },
+    "Item": {
+        "types": [
+            "weapon",
+            "protection",
+            "item"
+        ],
+        "templates": {
+            "base": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates":["base"],
+            "damagevalue": 1
+        },
+        "protection": {
+            "templates":["base"],
+            "protectionvalue": 1
+        },
+        "item": {
+            "templates":["base"]
+        }
+    }
+}

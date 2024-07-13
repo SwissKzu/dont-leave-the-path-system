@@ -25,18 +25,6 @@
         "name": "English",
         "path": "lang/en.json"
     }],
-    "documentTypes": {
-        "Actor": {
-            "character": {"htmlFields": ["background.description", "background.biography"]},
-            "creature": {},
-            "bosscreature": {"htmlFields": ["background.description", "background.special"]}
-        },
-        "Item": {
-            "item": {},
-            "weapon": {},
-            "protection": {}
-        }
-    },
     "socket": false,
     "initiative": "1d12"
 }
