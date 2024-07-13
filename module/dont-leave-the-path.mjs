@@ -1,0 +1,1 @@
+import { DontLeaveThePathActor } from './documents/actor.mjs';

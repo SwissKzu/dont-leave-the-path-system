@@ -14,7 +14,7 @@
             "discord": "khazou"
         }
     ],
-    "esmodules": ["dont-leave-the-path.mjs"],
+    "esmodules": ["module/dont-leave-the-path.mjs"],
     "packs": [{
         "name": "scenario-maker",
         "label": "Scenario Maker",
